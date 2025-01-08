@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
     }
 
-    fetch('https://jsonblob.com/api/1300890895002755072') // uso el fetch para poder obtener el json con los productos y mostrarlos en la tabla
+    fetch('https://jsonblob.com/api/1326615025393262592') // uso el fetch para poder obtener el json con los productos y mostrarlos en la tabla
         .then(response => response.json()) // convierto la respuesta a formato json
             .then(stock => {
                 moneda = stock.currency; // accedo a la propiedad 'currency' del objeto json 'stock' y la asigno a mi variable 'moneda'
